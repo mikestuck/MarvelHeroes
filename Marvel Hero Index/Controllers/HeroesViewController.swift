@@ -24,6 +24,9 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
             self.heroesTable.reloadData()
         }
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return heroArray.count
