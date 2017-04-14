@@ -3,7 +3,7 @@
 //  Marvel Hero Index
 //
 //  Created by Mike Stuck on 4/11/17.
-//  Copyright © 2017 Mike Stucj. All rights reserved.
+//  Copyright © 2017 Mike Stuck. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupView()
         return true
     }
 
@@ -41,6 +41,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func setupView(){
+//        if(UserUtil.checkAndReadFromDefaults(key: USER_DID_VIEW_ONBOARDING) != ""){
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "Heroes", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "HeroesVC")
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+//        }
+//        else{
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
+//            let initialViewController = storyboard.instantiateViewController(withIdentifier: "OnboardingVC")
+//            self.window?.rootViewController = initialViewController
+//            self.window?.makeKeyAndVisible()
+//        }
+    }
 
 }
 

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Marvel Hero IndexUITests.xctest' tests='3' failures='0'>
+  <testsuite name='Marvel_Hero_IndexTests.Marvel_Hero_IndexTests' tests='2' failures='0'>
+    <testcase classname='Marvel_Hero_IndexTests.Marvel_Hero_IndexTests' name='testExample' time='0.002'/>
+    <testcase classname='Marvel_Hero_IndexTests.Marvel_Hero_IndexTests' name='testPerformanceExample' time='0.377'/>
+  </testsuite>
+  <testsuite name='Marvel_Hero_IndexUITests.Marvel_Hero_IndexUITests' tests='1' failures='0'>
+    <testcase classname='Marvel_Hero_IndexUITests.Marvel_Hero_IndexUITests' name='testExample' time='6.631'/>
+  </testsuite>
+</testsuites>
