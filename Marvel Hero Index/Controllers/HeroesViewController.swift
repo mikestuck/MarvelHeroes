@@ -33,6 +33,15 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if(indexPath.row > self.heroArray.count-15){
+            APIUtil.index = APIUtil.index+1
+            APIUtil.getHeros(){ responseObject in
+                for hero in responseObject{
+                    self.heroArray.append(hero)
+                }
+                self.heroesTable.reloadData()
+            }
+        }
         let cell : HeroTableViewCell = heroesTable.dequeueReusableCell(withIdentifier: "heroesCell") as! HeroTableViewCell
         cell.setupCell(hero: heroArray[indexPath.row])
         return cell
@@ -40,5 +49,16 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        print("Will display cell at \(indexPath.row)")
+        if(indexPath.row > self.heroArray.count-15){
+            APIUtil.index = APIUtil.index+1
+            APIUtil.getHeros(){ responseObject in
+                self.heroArray = responseObject
+                self.heroesTable.reloadData()
+            }
+        }
     }
 }
