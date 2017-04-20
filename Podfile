@@ -11,7 +11,8 @@ target 'Marvel Hero Index' do
   pod 'Crashlytics'
   pod 'Mixpanel-swift'
   pod 'CryptoSwift'
-  pod 'Sparrow/Modules/RequestPermission', :git => 'https://github.com/IvanVorobei/Sparrow.git’
+  pod 'SDWebImage', '~>3.8'
+
 
   target 'Marvel Hero IndexTests' do
     inherit! :search_paths

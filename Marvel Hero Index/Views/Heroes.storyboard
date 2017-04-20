@@ -32,8 +32,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5NS-fT-vNk" userLabel="Avatar">
-                                                    <rect key="frame" x="8" y="8" width="359" height="183.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5NS-fT-vNk" userLabel="Avatar">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2i-cV-d5P" userLabel="Name">
                                                     <rect key="frame" x="28" y="150.5" width="319" height="21"/>
@@ -45,11 +45,11 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="R2i-cV-d5P" secondAttribute="bottom" constant="20" id="2IB-II-XbD"/>
                                                 <constraint firstItem="R2i-cV-d5P" firstAttribute="leading" secondItem="hv7-Mg-Zmc" secondAttribute="leadingMargin" constant="20" id="9Dx-5Z-jMk"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="5NS-fT-vNk" secondAttribute="trailing" id="WQA-B7-Nvn"/>
-                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="top" secondItem="hv7-Mg-Zmc" secondAttribute="topMargin" id="ZkO-Y6-QXL"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="5NS-fT-vNk" secondAttribute="bottom" id="bpJ-xC-tCJ"/>
+                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="centerX" secondItem="hv7-Mg-Zmc" secondAttribute="centerX" id="GSa-ns-Spb"/>
+                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="width" secondItem="hv7-Mg-Zmc" secondAttribute="width" id="SCw-cx-3tI"/>
+                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="height" secondItem="hv7-Mg-Zmc" secondAttribute="height" id="UcY-0T-9sk"/>
+                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="centerY" secondItem="hv7-Mg-Zmc" secondAttribute="centerY" id="ZY2-Q9-2Lv"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="R2i-cV-d5P" secondAttribute="trailing" constant="20" id="d7J-LT-RIN"/>
-                                                <constraint firstItem="5NS-fT-vNk" firstAttribute="leading" secondItem="hv7-Mg-Zmc" secondAttribute="leadingMargin" id="q6l-pu-30e"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -61,10 +61,10 @@
                             </tableView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="bRX-eF-dRO" firstAttribute="top" secondItem="PJB-CG-kjz" secondAttribute="bottom" constant="-20" id="2i1-aH-zZt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bRX-eF-dRO" secondAttribute="trailing" constant="-16" id="EUd-qw-1DZ"/>
-                            <constraint firstItem="bRX-eF-dRO" firstAttribute="leading" secondItem="oVO-t6-OCd" secondAttribute="leadingMargin" constant="-16" id="QE1-YB-wIq"/>
-                            <constraint firstItem="mGt-DE-xNA" firstAttribute="top" secondItem="bRX-eF-dRO" secondAttribute="bottom" id="lnO-CZ-fcd"/>
+                            <constraint firstItem="bRX-eF-dRO" firstAttribute="centerX" secondItem="oVO-t6-OCd" secondAttribute="centerX" id="itm-CH-53c"/>
+                            <constraint firstItem="bRX-eF-dRO" firstAttribute="width" secondItem="oVO-t6-OCd" secondAttribute="width" id="mFc-Fa-cAb"/>
+                            <constraint firstItem="bRX-eF-dRO" firstAttribute="height" secondItem="oVO-t6-OCd" secondAttribute="height" id="s5y-bC-UHp"/>
+                            <constraint firstItem="bRX-eF-dRO" firstAttribute="centerY" secondItem="oVO-t6-OCd" secondAttribute="centerY" id="tld-RT-uJk"/>
                         </constraints>
                     </view>
                     <connections>

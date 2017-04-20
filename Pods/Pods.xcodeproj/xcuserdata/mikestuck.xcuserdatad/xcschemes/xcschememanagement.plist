@@ -34,7 +34,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Sparrow.xcscheme</key>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4321F8FACA49156BFC121C24F33A4756</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>492E4CE3DF5D2F13B8A78D540BF82F18</key>
 		<dict>
 			<key>primary</key>
@@ -62,17 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>93CB8D3F7E330AFA849D942548C145BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CFEC3B292CB4B07BAFCBEECB15C1DB58</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DCE5819ED714A434BD3A976FA077BE27</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E7BE6B4595D8F91EF7A29196F5505B30</key>
 		<dict>
 			<key>primary</key>
 			<true/>

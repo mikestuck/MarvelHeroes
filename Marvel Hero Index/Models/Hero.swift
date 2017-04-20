@@ -17,7 +17,8 @@ class Hero: NSObject{
     let heroDescription: String
     let modified: String
     let resourceURI: String
-//    let thumbnailURL: String
+    let thumbnailDict: NSDictionary
+    let thumbnailURL: String
     let comics: [Comic] = []
     let stories: [Story] = []
     let events: [Event] = []
@@ -30,7 +31,10 @@ class Hero: NSObject{
         self.heroDescription = heroDict.object(forKey: "description") as! String
         self.modified = heroDict.object(forKey: "modified") as! String
         self.resourceURI = heroDict.object(forKey: "resourceURI") as! String
-//        self.thumbnailURL = heroDict.object(forKey: "thumbnail") as! String
+        self.thumbnailDict = heroDict.object(forKey: "thumbnail") as! NSDictionary
+        let path = thumbnailDict.object(forKey: "path") as! String
+        let ext = thumbnailDict.object(forKey: "extension") as! String
+        self.thumbnailURL = path + "/landscape_xlarge." + ext
     }
 }
 

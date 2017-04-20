@@ -14,6 +14,7 @@ class APIUtil: NSObject{
     
     static var index = 0
     static var responseSize = 20
+    static var isCollecting = false
     
     static func getHeros(completionHandler: @escaping ([Hero]) -> ()) {
         var heroArray = [Hero]()
@@ -27,6 +28,7 @@ class APIUtil: NSObject{
                 "hash": hash,
                 "offset": "\(offset)"
         ];
+        isCollecting = true
         Alamofire.request("\(API_BASE_URL)characters", method: .get, parameters: params, encoding: URLEncoding.default)
             .responseJSON { response in
                 switch response.result {
@@ -45,6 +47,7 @@ class APIUtil: NSObject{
                 case .failure( _):
                     return
                 }
+                isCollecting = false
         }
     }
 }
