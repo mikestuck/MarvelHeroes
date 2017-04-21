@@ -16,13 +16,15 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         heroesTable.dataSource = self
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
+        heroesTable.delegate = self
         APIUtil.getHeros(){ responseObject in
             self.heroArray = responseObject
             self.heroesTable.reloadData()
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
@@ -50,6 +52,10 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let storyboard = UIStoryboard(name: "HeroDetail", bundle: nil)
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "HeroDetailVC") as? HeroDetailViewController
+        let hero = self.heroArray[indexPath.row]
+        detailVC?.title = hero.name
+        self.navigationController?.pushViewController(detailVC!, animated: true)
     }
 }

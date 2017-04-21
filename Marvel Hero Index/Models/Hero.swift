@@ -34,7 +34,7 @@ class Hero: NSObject{
         self.thumbnailDict = heroDict.object(forKey: "thumbnail") as! NSDictionary
         let path = thumbnailDict.object(forKey: "path") as! String
         let ext = thumbnailDict.object(forKey: "extension") as! String
-        self.thumbnailURL = path + "/landscape_xlarge." + ext
+        self.thumbnailURL = path + "/landscape_incredible." + ext
     }
 }
 

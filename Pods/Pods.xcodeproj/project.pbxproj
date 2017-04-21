@@ -10,7 +10,6 @@
 		0123B5B26DD63FD5DCF408E5BCD6A2A1 /* TweakMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EFCF8ED14B02AB43FF457DDBF1E2F /* TweakMessage.swift */; };
 		02A22E35691A4698FEC147287F1A8C6A /* UIControlBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C63F98D1737ADE305DF7E0A502FFE57 /* UIControlBinding.swift */; };
 		04027F46067065EE5EB17EBA9F2DD2A8 /* CodelessBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A97BBA1D3C5AE83C527BB43D89EA5D /* CodelessBinding.swift */; };
-		063D8A9E3562FD1B0BFD7B26368DCB25 /* MPCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF47D3C71F5D1C6595B281A692E11C12 /* MPCloseButton@2x.png */; };
 		07BE52B63814B2AC54F0DD1AA19BCF60 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA0C32DBC65638D8C826D2B10543D5A /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0874C93A3393E57853FFD390E454B05E /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94B6B8B077044AE6CCEACBAD9BC84AE /* BlockMode.swift */; };
 		0BCD0C62A473EC964416F8D0524CE663 /* ObjectSerializerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482969E2502EAA0EAC63029D4BC3A2DE /* ObjectSerializerContext.swift */; };
@@ -26,20 +25,20 @@
 		15284FDBC0E6CF8BBB269754F2E588C6 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527C196BCA300C44CA63D2EC425430E /* Bit.swift */; };
 		16207E67D2656625D51EB440D1485179 /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E978F0DE36DCB52891D6178CD2F2795A /* SHA3.swift */; };
 		16624CDECDEF0962F669F74BB201A498 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BD2D8DB2B50D967E36DE2435200C3 /* Data+Extension.swift */; };
-		173A44F4EF25337D5F1129550ACFFC53 /* TakeoverNotificationViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119A7DCE75ABC3B2567FAB0067A4FB34 /* TakeoverNotificationViewController~ipad.xib */; };
 		187F4BBD1C64526DAC1D7A6E74A3F314 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47239F143F17933FA3DED7A0CAC2D04 /* PBKDF1.swift */; };
 		1B3E1D2610AE062BD4F67989177DF661 /* TweakGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D462EAEE08B20DF0617B385DCC6E02A /* TweakGroup.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A81FF533E4AC993E272E5FE954805315 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E7B46FFF081E524145ABB11A84161BD /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE01EDF450E7431C0D84FA2DF76EB81 /* PBKDF2.swift */; };
 		1ECB8C91291E38B872616F57D77BB55F /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC86547C5A8260A1FD9D101979127E6 /* NoPadding.swift */; };
-		1F421A126D294CCE26102EC6F438CE14 /* MPCloseButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B311B45960AB4B62925BA88B00A2F5E /* MPCloseButton@3x.png */; };
 		1FD9FCFA0838FE372EC7B2FC4FB0F593 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68828EBF82BBA5F09B2C645CA7FF21E0 /* Updatable.swift */; };
 		230A8010072C939CF6D01661497BC496 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4769D060DBF80048B72308C529B127 /* WebSocket.swift */; };
+		25B52B1D8C281E51FB13988CE279D2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		268AE87EF02C1D044F2015E013638739 /* Tweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7375C3CF6BE8E578AEA1085D410BA18 /* Tweak.swift */; };
 		27B51EBF9988DA4FEB8E6CAFD2548020 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D147A8AEE5B62B1EF6367767B0FEAF /* PKCS5.swift */; };
 		2855C61F073889245C47EA96BAAD9097 /* UIImageToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C67EFE93E0ED9E3FE2171DD84F5F3 /* UIImageToNSDictionary.swift */; };
 		28E67BD1AA55A413D76547655BBCB39E /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987B68DD0D515746589198DBD3DA4A2 /* ChaCha20+Foundation.swift */; };
 		291F438EA7F9F2C0A870EDA007B93C1B /* ApplicationStateSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8197A271001724BFDE99FFD7A996 /* ApplicationStateSerializer.swift */; };
+		2BCB7D85809E09D1B74012F56D321711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		2C4380E25F2E5EE68C512B13084D8E69 /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89921E665FB08972FE6D671EE1D363 /* CSArrayType+Foundation.swift */; };
 		2F8C5339B7FBCF5877B79AC2E0B78364 /* ObjectSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF580949740973A7CD8F1E3D544D9CB2 /* ObjectSerializer.swift */; };
 		30E41F27C892DD36B74E22A72EB1AEAE /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5104AEFB96AD3FBFB7B261EBD42B841 /* Padding.swift */; };
@@ -47,13 +46,11 @@
 		32DA2281A40301F048E4FD9EC531B364 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 479DE634B7D1AD26E0F2D57C68DC0EAB /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		338794706F6555C4653A51C9CC65D795 /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633AB38AABAB361C12AD9FA8C085DAB /* Utils+Foundation.swift */; };
 		3505AC36E60FF7386531E0AE67DA78F0 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0176F596052E2DACE2AAB54BB620D /* Cipher.swift */; };
-		35CD8CB6CD4DA175B208EFE3B3573630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC89870F80651BDE352B67B1C87DC5C /* UIKit.framework */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F12672D3CAD344B69DAD59879E7CE9 /* TaskDelegate.swift */; };
 		37222DD66F24EDD47D6C2BEE8D5868F6 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95958B449377F70AD18145ECFF2D3F1 /* HMAC.swift */; };
 		3844E87B4B7D8A92C825E06144574871 /* UIColorToNSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC427D51A4A3EDBC9122325B8B959F /* UIColorToNSString.swift */; };
 		390432461493B1F7A250193AA9F17BFC /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5912F46E8EA218232F7F1D0C94294 /* UIButton+WebCache.m */; };
 		396D84418017C32A3ACF039AFA96DD47 /* PrintLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2B60BE21D45C03D087A588DB923C4 /* PrintLogging.swift */; };
-		3A110C8FDA5C94D652BEFC262E077A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
 		3B4E7D7315A775AF272232820207AF0E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE687D72EE8B8357B7A2DEAD67C8B935 /* Network.swift */; };
 		3C674599F7625E9A5C81056EFD51573E /* Mixpanel-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4AD73C87B17D1CF61A622FA87A9BA3 /* Mixpanel-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C9E7F8DAE357C167636642DB4ADD09B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30173B7B8E677C21506D73AB620AB62 /* Constants.swift */; };
@@ -64,15 +61,13 @@
 		42E7A4D49C9835BB3D4822C2FDB62F95 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7D3E02F67A2B623EC71195AA8E8D4 /* CSArrayType+Extensions.swift */; };
 		43B4A5B5A268502B37255892428D6E70 /* Mixpanel-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE675879531EC6395AAE6A3BEF6D44 /* Mixpanel-swift-dummy.m */; };
 		4466D32B57EF7FDA4A0E4C19637692ED /* TweakViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7F663B157BD2AF77B002BB32E3B50 /* TweakViewData.swift */; };
-		45D01DB2345E1FA70EDCF3A9A967D0D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
 		49756F446839A5970D323249FF82E809 /* CGRectToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DEC0361CBDB650810A7C6A4D5D395 /* CGRectToNSDictionary.swift */; };
 		498DF72F1B73B4AA6FB98BBD4057066E /* WebSocketWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3FE18F93F1117DE0161D927A23BA02 /* WebSocketWrapper.swift */; };
 		4A4027AC3F10868DF921C833629A6814 /* DisconnectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC5AA3C49A181446FF5BB382A8011D /* DisconnectMessage.swift */; };
 		4CFE7B62813C82DCF6DB937D3B1BDABB /* UIEdgeInsetsToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89036458C3A13971258EEDACC149098C /* UIEdgeInsetsToNSDictionary.swift */; };
 		4D3A0294F74C30848CCD884716A55CCF /* SnapshotMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6A95C3B4B451342573E079B09ABEBA /* SnapshotMessage.swift */; };
-		4F1117643681D3765788ED7B3AB7B22F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD75E3ED9F50D180D863FB4C609397C /* CoreTelephony.framework */; };
+		4D7E003B4205CFB82D5C58151F6007A5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2F672AAF713E574CFB93435F9BE1CA /* CoreTelephony.framework */; };
 		4FEFAFEC56B87635C26E562A25BA181C /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E6932DED03BBDBFA3DBDF045B94838 /* ECB.swift */; };
-		522AFDBA8E7145CA300C0818C78C5DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
 		522C349254DF76A2C6928878B6432C8A /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26D55308A91A9B8A6B45B1245FA59E /* RandomBytesSequence.swift */; };
 		52409B6F8FA201A744710FFE63916295 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A73B395726D7E917320C795D3F698 /* String+Extension.swift */; };
 		525CD92CC18B26BD1810ADD40F6F9D71 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B847C3B2EFD09566EE6EEC231F293F5C /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,7 +79,6 @@
 		5F34578F288BA407699D40224A490307 /* TweakCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038EA35D89601704F22F7FADB13F892 /* TweakCollection.swift */; };
 		60AD31FCC18321473DC955F77704001E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFFFEB5F8F2F15E9B93D4F29905EA /* Logger.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E029A3F62EAF8ECA76B785C8F52233 /* DispatchQueue+Alamofire.swift */; };
-		612A7BC36645039C846B2D0F99E34553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
 		616A44869AAD067CBDB5A744DE7ED93D /* Pods-Marvel Hero Index-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D782B5031CD95BB799A3D79C2C2A1 /* Pods-Marvel Hero Index-dummy.m */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F359620132C9F68F6B2328630ACBF0 /* ServerTrustPolicy.swift */; };
 		6316C161A5771F015F3E0B49EFBE2933 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759E7C0B234ADFE263E929EB06654F6E /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -98,10 +92,13 @@
 		72A598F1EC57E511C1FD2559F61E3D43 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA5E9E2F03F3D267E0B14E0FA57E9D /* Swizzle.swift */; };
 		72C7A0A377F598F97071E8951B06CEED /* Pods-Marvel Hero IndexUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E17F5F342AD30D8C1CA427C1333218AC /* Pods-Marvel Hero IndexUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B4C26EAF0A71690D739790ADBDBCF4 /* Codeless.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDD60261D19ADB5E0358D513BCA711 /* Codeless.swift */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		73BE9B581E78A2B77C4AB382050CCCC3 /* CGSizeToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594BAE9E82E8C25D27E7AFB10CB0AF22 /* CGSizeToNSDictionary.swift */; };
 		73C15FF7E1AAFE390E3AF49CEF097BBA /* UIViewSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC85FDB2FB33A8FA14EA4C1FBC66E0 /* UIViewSelectors.swift */; };
+		73CC9D2AE18AB02892EE90944D15466A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60E40DB4AB5363B1922E0C1AED1C882 /* ImageIO.framework */; };
 		771ABAE46F9CF35DFD9800F6E2B009EC /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEECF9E32BB0732D0BC99F8620C5D94 /* Variant.swift */; };
 		77FD27621A03A34D0A6607757B00F23C /* DecideRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF85C74A51FC8B1DB509983313665F /* DecideRequest.swift */; };
+		7847CE8EDF0B82D7B41439DC2BB02F51 /* MiniNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B0EE3A5CF2DE5697CEF659288C7776 /* MiniNotificationViewController.xib */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257805D77706C02176DE059BCC5F4EDA /* SessionDelegate.swift */; };
 		7B6C5D45943FC3358938C2FEF2287797 /* BaseWebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821EF1614B4ACFE2D44E1C6756B0FFB8 /* BaseWebSocketMessage.swift */; };
 		7BAACA7A84B16A4132891D51ADC74B93 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD13E23EEEFD33A7E4928219E05F03D /* Checksum.swift */; };
@@ -110,45 +107,45 @@
 		7E11BD356DD7CAA111B52113C0157066 /* Pods-Marvel Hero IndexUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D457969AB0437A57D6548E65C77DDD62 /* Pods-Marvel Hero IndexUITests-dummy.m */; };
 		7FBC75043ABF564CDC736E09E8EC55D9 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985806D7EF80C106206C4188D50B0EA5 /* MD5.swift */; };
 		7FFA28292B70C342522D20573EFA9E6D /* UITableViewBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA024FE5832B30F872EA581DB9D96DB /* UITableViewBinding.swift */; };
-		80103570DA4EA7652C729ACBC68BD331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
+		8180D8E3090A7AE31F9BE0F7C4E0DA6A /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE14BA35A107794E8A45F1291EB7A57 /* TakeoverNotificationViewController~iphonelandscape.xib */; };
 		818F270EA7BB79E9863F495DE524DCC1 /* Pods-Marvel Hero IndexTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB71B361636DA13DE07DC0FDA879439D /* Pods-Marvel Hero IndexTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		834047D067BC787002740A93D9D0A527 /* ObjectSerializerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0F221664C3E0B55A968CD142D9571 /* ObjectSerializerConfig.swift */; };
 		84155270C27A5EA35FFD810E5F9A0198 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBB2DA16F319DDC6A00E75E4F6EA26 /* UInt32+Extension.swift */; };
 		84D1FEA589AEB456579FDB16F0BDDD54 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8163D1AC68D46213E0E08D9A07B296 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85DFC9818C088EAED926FEC4BCC4AF9F /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE7E55B4BFF808054F861AE909ECD /* IntegerConvertible.swift */; };
-		877E8FE85169E7AA924B189C559FC8FA /* MiniNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BE81044B8A16C0655507A94D652A6D /* MiniNotificationViewController.xib */; };
 		8811B22F20407049A149A537ABE8C95E /* ChangeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6DBE7CC334344D26138CF2D3FFEFB /* ChangeMessage.swift */; };
 		88D2EC3A26C9BCF7A25BB8CD803B4AFC /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDF11FEF83AD1D2BBDABFACE071F3D /* CryptoSwift-dummy.m */; };
 		89770138CF2438B25DF488FAF46DFC98 /* NSAttributedStringToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656846F6D55B753C64B9A7F5C8267879 /* NSAttributedStringToNSDictionary.swift */; };
 		8A23E406486A8486EAE12A31A8A8A145 /* AnyTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6949CD4494BC7078698E92180E9E58BE /* AnyTweak.swift */; };
+		8B7B1B929926501D01641E44A7CFD4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		8D68F98C9CFA9C974FF8C24929F7909A /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A85D85CA177ABED894C1DB495C739 /* UInt8+Extension.swift */; };
 		90515D74D2BD1FEC121B3E7D58DF1144 /* IdentityTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4946AEF8DE106EB9A271F7EB1667BF /* IdentityTransformer.swift */; };
 		909C241C4BD13A4DA7426D3528883307 /* MiniNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A4C0BFC7B86FC767F453D755DE6CC /* MiniNotificationViewController.swift */; };
 		9116CEAA6A6F6FB7C464AE06E64884FE /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDD7CAAC67AA636205996E0FDA40E56 /* SDWebImage-dummy.m */; };
 		9365498F5A87EE8BE868B28000477BB0 /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B13F98ED06B948C707C62693524B /* RandomAccessBlockModeWorker.swift */; };
 		94D9216C03D02CA82D3F64E6A8667B47 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79BF84E65456730FDB41044C0B6460 /* PKCS7.swift */; };
+		9542DD877841A812B762F4F36ED92D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		98DE8A9AFFABB336F93DE49E81FBA695 /* ObjectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCFB3A5DD9D5A41442B60A78BAD280F /* ObjectFilter.swift */; };
 		9949EDD6877BF3719346CD1F9BE91877 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137EBD94843883FCAA43977AE86953E /* Generics.swift */; };
 		9A7ADEE7DEA70BDD95D4EBCB73CA56DA /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76D3413BC9F5CB5A25D06F98F108574 /* BlockModeOptions.swift */; };
 		9B0ECF8E2A6DBCC56D16B44E0C56AC23 /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16420F9D0343E885422FAB363145FB8 /* RandomAccessCryptor.swift */; };
-		9C2E05A079149E29A84590D1DC44FC4B /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = B424B57229E5E84714086923E090556B /* TakeoverNotificationViewController~iphonelandscape.xib */; };
+		9D329B33E36B2CBB2B34333F6078B38B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6810A0D78804D8241347D6959EEFC6 /* AFError.swift */; };
 		9FE66602DB34627E1A0E8035576725C3 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DE1B1881703578339975ACCAF9E4F1 /* UIImageView+HighlightedWebCache.m */; };
 		A00D0DE57AB7DBF69C6963F3C9D532C9 /* MixpanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CAB4D1DF841C772B5AE7C17BCB10F4 /* MixpanelType.swift */; };
-		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
+		A02A4CD4C3A39461AED61DDC996D73B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F102FDF61BE55C784157C0A5D1D97A0 /* UIKit.framework */; };
 		A1E1B58E5D37EDAC35EA61C16B5C0525 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6A2E79C63F53BC58CB778A32029DB /* Error.swift */; };
 		A22C81F8FD05BB2BAF4379778DE76BD5 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8D054CCE58AEC82C9BE2516104A61 /* UIView+WebCacheOperation.m */; };
 		A25A984EF7C05DA955AF92DA0E8FA059 /* TweakableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA557F3A78EB9144A14ACBC1E77EA415 /* TweakableType.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD295DA06E240EFACF635E37483A69 /* NetworkReachabilityManager.swift */; };
 		A2E16FD02E129CF1C209498E5450E583 /* BindingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E099F3F6D0AEC96E475D13F2D0CEAB /* BindingMessage.swift */; };
-		A4846977A44B4996F18649F1340FBDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */; };
 		A645E29D79C6313C84D474597DB09634 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE4C06BCB276CFA68E285C7314D2FDC /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7081BA3B8E91DA3BF9AAF94B4F2DE13 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76727BE3AE9A6881E8686E8BC4D5EC9A /* PCBC.swift */; };
 		A7175C0B7B247504EEEF64369CCD598F /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1245A504BAEA032236B5AE56B6CF2AC6 /* ChaCha20.swift */; };
+		A891DEFFE03B14EA220D73C9990D6221 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722631B8FE52000FE0767755E6197E58 /* TakeoverNotificationViewController~iphoneportrait.xib */; };
 		A9CDFE2F8024CD13A9A3E8B361BE41AE /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F9023AD9810DA9DF4D213BF607A86 /* OFB.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D43E6CFB4EC6E1784CFE861684B4956E /* Alamofire-dummy.m */; };
 		AAA108C4657148754075EAC0BB23FE15 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D9EC8A82B6E907449C6C430461D8C /* People.swift */; };
-		AB11318BA2DFC0A2CC53FF7B20074321 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF11D7BDB54E36789382FBAD0D4A01EB /* TakeoverNotificationViewController~iphoneportrait.xib */; };
 		ACAF9BD39A92BEB447B9DA376ECA5333 /* TweakBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927E8BE7708E43AA58D79E65045C059C /* TweakBinding.swift */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205AB6A5B15EFB057A0F64398DA3C8B /* SessionManager.swift */; };
 		B0FF2FA90F338910AA53984928092511 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BDCDE33B2555C9F5CB31EE7D45260 /* MD5.swift */; };
@@ -159,6 +156,7 @@
 		B24E33DE50971B9FDA41E1E92CACCA73 /* Pods-Marvel Hero IndexTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26DC7F555F3CAEC5EA0BDEAB04E27B /* Pods-Marvel Hero IndexTests-dummy.m */; };
 		B250CE6F75E38022631AAB914DB7E092 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C30D6F0FDCA8170430598492A1E70 /* SHA1.swift */; };
 		B36EAE1B4DAFF771587BB25CAAC8168C /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A94DA5C4C24AFB5B1ED76AE01D9DB2 /* String+FoundationExtension.swift */; };
+		B4A3A296B2E619BB25800C56BC32DD79 /* MPCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446013E4A03FDD223E0C098BCC32DC04 /* MPCloseButton@2x.png */; };
 		B4DE17EAC3E2F9B4E53E2407B6CE77EC /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D26DCBDE57F6B990CEF2E2657885A /* JSONHandler.swift */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5F2E5281AF7B9C233D08448A74D /* MultipartFormData.swift */; };
 		B68CBFE130CEE949FD8B558BB9D5F055 /* VariantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195B60E0970016239770B563B900C2F /* VariantAction.swift */; };
@@ -168,12 +166,13 @@
 		BD7EAFE2B8E21B83A543E4EC4334E240 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30C8A259834F39295D22EE31AB8CEC /* Authenticator.swift */; };
 		BE3887E2509D0E23ACA65DFCEF7178D7 /* ObjectIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07821704D65D32A8F6BCD13C222914 /* ObjectIdentityProvider.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408755AB26BB5B048432739E7DE8D03 /* ParameterEncoding.swift */; };
+		C413FCF87CAB870086B74A6966C2CB01 /* TakeoverNotificationViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF299FADCEB5E1A8398C4D57A2FCA8DB /* TakeoverNotificationViewController~ipad.xib */; };
 		C455B9DC9785E04E628A56F781DFDE5A /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7180C41F28FB16D3120FADC5A53D8E /* Flush.swift */; };
-		C4FCA7299B01B57B350B57116D1FBCAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6780FCAFE6ACD59C21CC0D81509EF4A1 /* ImageIO.framework */; };
 		C7C2E1EF3DB156CC34F8BD37A55AD093 /* CGAffineTransformToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61053FCC97D1E65E05164B7AA66922 /* CGAffineTransformToNSDictionary.swift */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F7154AE07F4743E4A5DD7A6CFF1901 /* Response.swift */; };
 		CC0C8005DC95343A93E3221CE3770CA4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634321F9F32ECB53DD3ECD4D6DD04B0 /* Array+Extension.swift */; };
 		CC9DC820EDC8362AD7C3952039A53BDF /* BaseNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5CBF39C24EC80BF0803994133633A /* BaseNotificationViewController.swift */; };
+		CD7BBD7DAB2ACE3236B43417EE997A66 /* MPCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A6EBB84F0425069B100560FD7D485674 /* MPCloseButton.png */; };
 		CE27B06ECFEE713925223B1D997F60E4 /* MixpanelInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF00762241268940B18BEAE92C4E51CF /* MixpanelInstance.swift */; };
 		D26285A1589E358FDBF37ABDDD962167 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE6F8457018B369C91501901643B7F0 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2E326030B7376F08A2354C7B7B2F184 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1CD72282DD52AB67D8D7D0F005FCC6 /* BlockCipher.swift */; };
@@ -182,6 +181,7 @@
 		D39E24F5BFDA8D88D1A8C86CF9B6D214 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D632546F023678A9C4D405564BF7B /* UInt16+Extension.swift */; };
 		D698870ECB785CF4240919E75B27E931 /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673B9B73617BC0DEE061F313EFC637A /* Cryptors.swift */; };
 		D8A1C5971D524283BEE9B4E10786F015 /* TweakLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212B458904DB5A841685051F219CA76 /* TweakLibrary.swift */; };
+		D901DC48D2A42005FE2EF52AB7F099E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */; };
 		D920E53392C6D8FE70FF97A8CD4A0211 /* FlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A42BF48D72F9A858D8C9B7D1C964D6 /* FlushRequest.swift */; };
 		D997C78E0FC344E73270639C33500B00 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18506FAC9A5D71BDAC02E1381CBF959 /* Rabbit.swift */; };
 		DD7FA387638E0279867F70E6DC222957 /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315102B9EC796C57F52E896312B223C4 /* Blowfish.swift */; };
@@ -194,7 +194,6 @@
 		E891BAD471B7858B0940542835A2221A /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5782F078EEAB4DCDFBA2DA9DF847922E /* UIImageView+WebCache.m */; };
 		E948E2AB1A70146A463697F59011C532 /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8690FAFFF082B0DCEF45E5C7855E677 /* Mixpanel.swift */; };
 		E99F5C224748570A209A0A3279C13341 /* FileLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3DDBCDADBFB679C205AD69CD2BCEE /* FileLogging.swift */; };
-		EB8369FB7FADB7B9B91A93A448C6053D /* MPCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E5D431E2208361592C7BF7697FC469 /* MPCloseButton.png */; };
 		EBA3FDC3D74AEF106F8FD6265CE79DC8 /* InAppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4488F6E3F370D2CB7DEBD2795B9350 /* InAppNotification.swift */; };
 		EBDFBD13096552AB8EDD99BFC6FAF71E /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29796AA346D0D8A8B6D8348C03350AF /* Collection+Extension.swift */; };
 		EDF73E5463D73B0127993FA6728B4A11 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81AA8140F85081C2B3F323C55F3BD39 /* SSLSecurity.swift */; };
@@ -220,6 +219,7 @@
 		FA43605CE77417AE9CBC279F2D17BD0E /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5EB106512CAF0972C99CDDC02E64A1 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA4E38CFB89AD9BFBE334E438EAEF123 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942565637CAFDF9A00FF94D29681330 /* HMAC+Foundation.swift */; };
 		FC1139BD40F9FBDE76963A7688483F3E /* ObjectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F156FEC4D2F4891F822F08988D2CC /* ObjectSelector.swift */; };
+		FC5DB73748209EC8064B933DC41773DF /* MPCloseButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B792A93C8579B675ED0F3AB78283D8 /* MPCloseButton@3x.png */; };
 		FCFBF5F619BBD68F062AB104409067CA /* Pods-Marvel Hero Index-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A8510B2E8FB0825EDB4FDE0F4934C1 /* Pods-Marvel Hero Index-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDB9AAD55878C1D6C72D95CF13CFD47C /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC42CCE6EFE11FB523EB8A3BA0580E66 /* Operators.swift */; };
 /* End PBXBuildFile section */
@@ -267,17 +267,15 @@
 		0BDD84C6E481BB251F12E94389232A71 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		0BF64B2C8935AAF7E1A7EC871A2B0064 /* DeviceInfoMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInfoMessage.swift; path = Mixpanel/DeviceInfoMessage.swift; sourceTree = "<group>"; };
 		0EBC5AA3C49A181446FF5BB382A8011D /* DisconnectMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisconnectMessage.swift; path = Mixpanel/DisconnectMessage.swift; sourceTree = "<group>"; };
+		0F102FDF61BE55C784157C0A5D1D97A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1137EBD94843883FCAA43977AE86953E /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
-		119A7DCE75ABC3B2567FAB0067A4FB34 /* TakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~ipad.xib"; path = "Mixpanel/TakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
 		1245A504BAEA032236B5AE56B6CF2AC6 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
 		129E119BE9942143C5BEC5BA8B751C53 /* Pods-Marvel Hero IndexUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvel Hero IndexUITests-resources.sh"; sourceTree = "<group>"; };
 		148EFCF8ED14B02AB43FF457DDBF1E2F /* TweakMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakMessage.swift; path = Mixpanel/TweakMessage.swift; sourceTree = "<group>"; };
 		166EB428CE0828D30F20DCEB1FA8CC70 /* SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA256.swift; path = Mixpanel/SHA256.swift; sourceTree = "<group>"; };
 		180EAA9D1F14F73D00A037DA5F984DF6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		1AC89870F80651BDE352B67B1C87DC5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1AF11B3BE407DA564F8CEC37ACA71BB6 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		1B09360D65A2972CF3592B56A1320F98 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		1B311B45960AB4B62925BA88B00A2F5E /* MPCloseButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "MPCloseButton@3x.png"; path = "Mixpanel/MPCloseButton@3x.png"; sourceTree = "<group>"; };
 		1B5EB106512CAF0972C99CDDC02E64A1 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
 		1BB21A56E1B47ED088813698F4A6A39F /* Pods-Marvel Hero Index.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Marvel Hero Index.modulemap"; sourceTree = "<group>"; };
 		1BF5A7DFCE27B214C8603992FF15679F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
@@ -318,6 +316,7 @@
 		439B95CD0A30AB95BDD6A798922013E2 /* Pods-Marvel Hero IndexTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Marvel Hero IndexTests.modulemap"; sourceTree = "<group>"; };
 		43A5912F46E8EA218232F7F1D0C94294 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		440D26DCBDE57F6B990CEF2E2657885A /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = Mixpanel/JSONHandler.swift; sourceTree = "<group>"; };
+		446013E4A03FDD223E0C098BCC32DC04 /* MPCloseButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButton@2x.png"; path = "Mixpanel/MPCloseButton@2x.png"; sourceTree = "<group>"; };
 		476FBB1217E487E6B967D61B8E740A0C /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/CryptoSwift/BytesSequence.swift; sourceTree = "<group>"; };
 		479DE634B7D1AD26E0F2D57C68DC0EAB /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		482969E2502EAA0EAC63029D4BC3A2DE /* ObjectSerializerContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerContext.swift; path = Mixpanel/ObjectSerializerContext.swift; sourceTree = "<group>"; };
@@ -349,19 +348,20 @@
 		656846F6D55B753C64B9A7F5C8267879 /* NSAttributedStringToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringToNSDictionary.swift; path = Mixpanel/NSAttributedStringToNSDictionary.swift; sourceTree = "<group>"; };
 		65C53590C1B4B7ACF8C8798A4A7DBCA9 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		66C0F221664C3E0B55A968CD142D9571 /* ObjectSerializerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerConfig.swift; path = Mixpanel/ObjectSerializerConfig.swift; sourceTree = "<group>"; };
-		6780FCAFE6ACD59C21CC0D81509EF4A1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		6809D97B56E8C5FCF90546103BBD79CB /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
 		68828EBF82BBA5F09B2C645CA7FF21E0 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
 		68EC427D51A4A3EDBC9122325B8B959F /* UIColorToNSString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorToNSString.swift; path = Mixpanel/UIColorToNSString.swift; sourceTree = "<group>"; };
 		6949CD4494BC7078698E92180E9E58BE /* AnyTweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyTweak.swift; path = Mixpanel/AnyTweak.swift; sourceTree = "<group>"; };
 		6956F079E62ED9D13F80AA68D2C5F0F4 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
-		6AD75E3ED9F50D180D863FB4C609397C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		6B2F672AAF713E574CFB93435F9BE1CA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		6B656D14E6A3EBF8EF95EBEF43405824 /* ABTesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTesting.swift; path = Mixpanel/ABTesting.swift; sourceTree = "<group>"; };
 		6CCFB3A5DD9D5A41442B60A78BAD280F /* ObjectFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectFilter.swift; path = Mixpanel/ObjectFilter.swift; sourceTree = "<group>"; };
 		6D3FE18F93F1117DE0161D927A23BA02 /* WebSocketWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketWrapper.swift; path = Mixpanel/WebSocketWrapper.swift; sourceTree = "<group>"; };
 		7010DAA10CAEF2AC7DB476050B631412 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
 		709A85D85CA177ABED894C1DB495C739 /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
 		717FC04A477B1B1C1AB0E16A7D47CE8A /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		722631B8FE52000FE0767755E6197E58 /* TakeoverNotificationViewController~iphoneportrait.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphoneportrait.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib"; sourceTree = "<group>"; };
+		7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		728A82F2F08E0BAF346BBD89CCAA52CF /* CGPointToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointToNSDictionary.swift; path = Mixpanel/CGPointToNSDictionary.swift; sourceTree = "<group>"; };
 		72D0176F596052E2DACE2AAB54BB620D /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
 		73136E1D8F4984EE6CEE28A21922748F /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
@@ -389,6 +389,7 @@
 		8853CC92897AE934687B2AF67049277F /* Pods-Marvel Hero Index-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Marvel Hero Index-acknowledgements.plist"; sourceTree = "<group>"; };
 		88CDF11FEF83AD1D2BBDABFACE071F3D /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
 		89036458C3A13971258EEDACC149098C /* UIEdgeInsetsToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsetsToNSDictionary.swift; path = Mixpanel/UIEdgeInsetsToNSDictionary.swift; sourceTree = "<group>"; };
+		89B792A93C8579B675ED0F3AB78283D8 /* MPCloseButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButton@3x.png"; path = "Mixpanel/MPCloseButton@3x.png"; sourceTree = "<group>"; };
 		8AD48E42DDE2DDE427B14666D4998F0F /* Pods-Marvel Hero IndexTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Marvel Hero IndexTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C63F98D1737ADE305DF7E0A502FFE57 /* UIControlBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControlBinding.swift; path = Mixpanel/UIControlBinding.swift; sourceTree = "<group>"; };
 		8CF002ACC47A0CEC354402031E7B2A56 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
@@ -419,10 +420,10 @@
 		A26E5886846E16000DFA737D10CBB87B /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		A27D9EC8A82B6E907449C6C430461D8C /* People.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = People.swift; path = Mixpanel/People.swift; sourceTree = "<group>"; };
 		A3E6932DED03BBDBFA3DBDF045B94838 /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
-		A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A53133F3D0C2A410094A2540A4B98E7D /* Pods-Marvel Hero IndexUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvel Hero IndexUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A60BD2D8DB2B50D967E36DE2435200C3 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
 		A6E1A2118330B27A9323F628D36AE247 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EBB84F0425069B100560FD7D485674 /* MPCloseButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseButton.png; path = Mixpanel/MPCloseButton.png; sourceTree = "<group>"; };
 		A7EDD60261D19ADB5E0358D513BCA711 /* Codeless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codeless.swift; path = Mixpanel/Codeless.swift; sourceTree = "<group>"; };
 		A81FF533E4AC993E272E5FE954805315 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		A834E5A68ACA6496B8870FD989BCFEDE /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -438,9 +439,8 @@
 		AF527ACC61AD2D08FAAC8F58E12158B7 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		B18506FAC9A5D71BDAC02E1381CBF959 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		B1EC8197A271001724BFDE99FFD7A996 /* ApplicationStateSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationStateSerializer.swift; path = Mixpanel/ApplicationStateSerializer.swift; sourceTree = "<group>"; };
-		B2E5D431E2208361592C7BF7697FC469 /* MPCloseButton.png */ = {isa = PBXFileReference; includeInIndex = 1; name = MPCloseButton.png; path = Mixpanel/MPCloseButton.png; sourceTree = "<group>"; };
-		B424B57229E5E84714086923E090556B /* TakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphonelandscape.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
 		B47239F143F17933FA3DED7A0CAC2D04 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
+		B60E40DB4AB5363B1922E0C1AED1C882 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		B69F9023AD9810DA9DF4D213BF607A86 /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
 		B6ABFE987DEC8A94AE3EE3D316496EE7 /* Pods_Marvel_Hero_IndexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Marvel_Hero_IndexTests.framework; path = "Pods-Marvel Hero IndexTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7375C3CF6BE8E578AEA1085D410BA18 /* Tweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tweak.swift; path = Mixpanel/Tweak.swift; sourceTree = "<group>"; };
@@ -461,13 +461,14 @@
 		C3987B982DACFD156ECA1399DC14A419 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
 		C3E8D054CCE58AEC82C9BE2516104A61 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		C5CAB4D1DF841C772B5AE7C17BCB10F4 /* MixpanelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelType.swift; path = Mixpanel/MixpanelType.swift; sourceTree = "<group>"; };
+		C6B0EE3A5CF2DE5697CEF659288C7776 /* MiniNotificationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MiniNotificationViewController.xib; path = Mixpanel/MiniNotificationViewController.xib; sourceTree = "<group>"; };
 		C95958B449377F70AD18145ECFF2D3F1 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
 		CA1CD72282DD52AB67D8D7D0F005FCC6 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
 		CB3F6F384A1115237DF383EF954E3F76 /* TweakStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakStore.swift; path = Mixpanel/TweakStore.swift; sourceTree = "<group>"; };
 		CE89921E665FB08972FE6D671EE1D363 /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
 		CED495B47C1A4CA40127B29732BAB006 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		CF00762241268940B18BEAE92C4E51CF /* MixpanelInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelInstance.swift; path = Mixpanel/MixpanelInstance.swift; sourceTree = "<group>"; };
-		CF47D3C71F5D1C6595B281A692E11C12 /* MPCloseButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "MPCloseButton@2x.png"; path = "Mixpanel/MPCloseButton@2x.png"; sourceTree = "<group>"; };
+		CF299FADCEB5E1A8398C4D57A2FCA8DB /* TakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~ipad.xib"; path = "Mixpanel/TakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
 		D0F359620132C9F68F6B2328630ACBF0 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		D16420F9D0343E885422FAB363145FB8 /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCryptor.swift; path = Sources/CryptoSwift/RandomAccessCryptor.swift; sourceTree = "<group>"; };
 		D212B458904DB5A841685051F219CA76 /* TweakLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakLibrary.swift; path = Mixpanel/TweakLibrary.swift; sourceTree = "<group>"; };
@@ -486,6 +487,7 @@
 		DD4769D060DBF80048B72308C529B127 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Mixpanel/WebSocket.swift; sourceTree = "<group>"; };
 		DD47FE97D6429BAB9986F3ED10E5CB89 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		DE79BF84E65456730FDB41044C0B6460 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS7.swift; sourceTree = "<group>"; };
+		DEE14BA35A107794E8A45F1291EB7A57 /* TakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphonelandscape.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
 		DF08FA33E30CC43F8B04B8A9738A7DA3 /* Pods_Marvel_Hero_IndexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Marvel_Hero_IndexUITests.framework; path = "Pods-Marvel Hero IndexUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF580949740973A7CD8F1E3D544D9CB2 /* ObjectSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializer.swift; path = Mixpanel/ObjectSerializer.swift; sourceTree = "<group>"; };
 		DFD2B60BE21D45C03D087A588DB923C4 /* PrintLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintLogging.swift; path = Mixpanel/PrintLogging.swift; sourceTree = "<group>"; };
@@ -514,7 +516,6 @@
 		F63F51C80AD92687CB4484792CAF23D5 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		F6A42BF48D72F9A858D8C9B7D1C964D6 /* FlushRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushRequest.swift; path = Mixpanel/FlushRequest.swift; sourceTree = "<group>"; };
 		F7B1D8808BC115D13F29B767CA0FF453 /* Pods-Marvel Hero Index.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marvel Hero Index.debug.xcconfig"; sourceTree = "<group>"; };
-		F8BE81044B8A16C0655507A94D652A6D /* MiniNotificationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MiniNotificationViewController.xib; path = Mixpanel/MiniNotificationViewController.xib; sourceTree = "<group>"; };
 		F8DB80EDA108A78D1A80AF1E0549EE11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB120E57248A79EF3403F0FE2EEB17B3 /* Pods-Marvel Hero IndexTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvel Hero IndexTests-frameworks.sh"; sourceTree = "<group>"; };
 		FBD13E23EEEFD33A7E4928219E05F03D /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
@@ -522,7 +523,6 @@
 		FC4488F6E3F370D2CB7DEBD2795B9350 /* InAppNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppNotification.swift; path = Mixpanel/InAppNotification.swift; sourceTree = "<group>"; };
 		FD6A95C3B4B451342573E079B09ABEBA /* SnapshotMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotMessage.swift; path = Mixpanel/SnapshotMessage.swift; sourceTree = "<group>"; };
 		FDCE3C491CB058FD70F8C5CE6D1280D2 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
-		FF11D7BDB54E36789382FBAD0D4A01EB /* TakeoverNotificationViewController~iphoneportrait.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphoneportrait.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib"; sourceTree = "<group>"; };
 		FFF98458F3030B681D30B9F337886573 /* Pods-Marvel Hero Index-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvel Hero Index-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -531,7 +531,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80103570DA4EA7652C729ACBC68BD331 /* Foundation.framework in Frameworks */,
+				D901DC48D2A42005FE2EF52AB7F099E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,9 +539,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1117643681D3765788ED7B3AB7B22F /* CoreTelephony.framework in Frameworks */,
-				612A7BC36645039C846B2D0F99E34553 /* Foundation.framework in Frameworks */,
-				35CD8CB6CD4DA175B208EFE3B3573630 /* UIKit.framework in Frameworks */,
+				4D7E003B4205CFB82D5C58151F6007A5 /* CoreTelephony.framework in Frameworks */,
+				9542DD877841A812B762F4F36ED92D2B /* Foundation.framework in Frameworks */,
+				A02A4CD4C3A39461AED61DDC996D73B1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +549,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +557,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4846977A44B4996F18649F1340FBDD2 /* Foundation.framework in Frameworks */,
+				25B52B1D8C281E51FB13988CE279D2C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +565,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D01DB2345E1FA70EDCF3A9A967D0D5 /* Foundation.framework in Frameworks */,
+				2BCB7D85809E09D1B74012F56D321711 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +573,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A110C8FDA5C94D652BEFC262E077A87 /* Foundation.framework in Frameworks */,
+				9D329B33E36B2CBB2B34333F6078B38B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,8 +581,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522AFDBA8E7145CA300C0818C78C5DAA /* Foundation.framework in Frameworks */,
-				C4FCA7299B01B57B350B57116D1FBCAB /* ImageIO.framework in Frameworks */,
+				8B7B1B929926501D01641E44A7CFD4F3 /* Foundation.framework in Frameworks */,
+				73CC9D2AE18AB02892EE90944D15466A /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,7 +674,7 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAA3BB3EE763D44A6E57EAF591FE6EF9 /* iOS */,
+				86F9441DBAA32968D8CC5C9AD2107BE9 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -791,16 +791,16 @@
 			path = "Target Support Files/Pods-Marvel Hero IndexUITests";
 			sourceTree = "<group>";
 		};
-		67D2E18C3169641F66B490431CB2DAEA /* Resources */ = {
+		65AFFD1B0830C1A01F106D649EA4813C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8BE81044B8A16C0655507A94D652A6D /* MiniNotificationViewController.xib */,
-				B2E5D431E2208361592C7BF7697FC469 /* MPCloseButton.png */,
-				CF47D3C71F5D1C6595B281A692E11C12 /* MPCloseButton@2x.png */,
-				1B311B45960AB4B62925BA88B00A2F5E /* MPCloseButton@3x.png */,
-				119A7DCE75ABC3B2567FAB0067A4FB34 /* TakeoverNotificationViewController~ipad.xib */,
-				B424B57229E5E84714086923E090556B /* TakeoverNotificationViewController~iphonelandscape.xib */,
-				FF11D7BDB54E36789382FBAD0D4A01EB /* TakeoverNotificationViewController~iphoneportrait.xib */,
+				C6B0EE3A5CF2DE5697CEF659288C7776 /* MiniNotificationViewController.xib */,
+				A6EBB84F0425069B100560FD7D485674 /* MPCloseButton.png */,
+				446013E4A03FDD223E0C098BCC32DC04 /* MPCloseButton@2x.png */,
+				89B792A93C8579B675ED0F3AB78283D8 /* MPCloseButton@3x.png */,
+				CF299FADCEB5E1A8398C4D57A2FCA8DB /* TakeoverNotificationViewController~ipad.xib */,
+				DEE14BA35A107794E8A45F1291EB7A57 /* TakeoverNotificationViewController~iphonelandscape.xib */,
+				722631B8FE52000FE0767755E6197E58 /* TakeoverNotificationViewController~iphoneportrait.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -814,6 +814,17 @@
 				01AA0CEE439D62241CBD60B0A6C824F2 /* Products */,
 				34D94F619604F9A25E0B8CE8C7E3366A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86F9441DBAA32968D8CC5C9AD2107BE9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F672AAF713E574CFB93435F9BE1CA /* CoreTelephony.framework */,
+				7270662ED52B2BB861F7FE964F7D53E4 /* Foundation.framework */,
+				B60E40DB4AB5363B1922E0C1AED1C882 /* ImageIO.framework */,
+				0F102FDF61BE55C784157C0A5D1D97A0 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A3C76F70AC2306A5B87DDD25EDFFFA64 /* CryptoSwift */ = {
@@ -913,17 +924,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
-			sourceTree = "<group>";
-		};
-		BAA3BB3EE763D44A6E57EAF591FE6EF9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6AD75E3ED9F50D180D863FB4C609397C /* CoreTelephony.framework */,
-				A4530BDBCDCE5F5D53DE7BC93C6BA2A2 /* Foundation.framework */,
-				6780FCAFE6ACD59C21CC0D81509EF4A1 /* ImageIO.framework */,
-				1AC89870F80651BDE352B67B1C87DC5C /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C632971AD914F9E34BF447DD1650EC24 /* Fabric */ = {
@@ -1032,7 +1032,7 @@
 				95E3DEAA3842DF02BF94FE1607FB32E9 /* VariantTweak.swift */,
 				DD4769D060DBF80048B72308C529B127 /* WebSocket.swift */,
 				6D3FE18F93F1117DE0161D927A23BA02 /* WebSocketWrapper.swift */,
-				67D2E18C3169641F66B490431CB2DAEA /* Resources */,
+				65AFFD1B0830C1A01F106D649EA4813C /* Resources */,
 				016F6BA815A64800643C45A11B610177 /* Support Files */,
 			);
 			name = "Mixpanel-swift";
@@ -1152,7 +1152,7 @@
 			buildPhases = (
 				3FE6DDB901504521F252CB854BA21952 /* Sources */,
 				3CE0FFCE302951FD9D61C66402455808 /* Frameworks */,
-				651FA26B2982E09DFF9B0F83C716283F /* Resources */,
+				9D53FB42B638A8346B376E6CB23CDD85 /* Resources */,
 				AC40155C42034BEC129C52105EFA1318 /* Headers */,
 			);
 			buildRules = (
@@ -1259,7 +1259,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -1286,17 +1286,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		651FA26B2982E09DFF9B0F83C716283F /* Resources */ = {
+		9D53FB42B638A8346B376E6CB23CDD85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877E8FE85169E7AA924B189C559FC8FA /* MiniNotificationViewController.xib in Resources */,
-				EB8369FB7FADB7B9B91A93A448C6053D /* MPCloseButton.png in Resources */,
-				063D8A9E3562FD1B0BFD7B26368DCB25 /* MPCloseButton@2x.png in Resources */,
-				1F421A126D294CCE26102EC6F438CE14 /* MPCloseButton@3x.png in Resources */,
-				173A44F4EF25337D5F1129550ACFFC53 /* TakeoverNotificationViewController~ipad.xib in Resources */,
-				9C2E05A079149E29A84590D1DC44FC4B /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */,
-				AB11318BA2DFC0A2CC53FF7B20074321 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */,
+				7847CE8EDF0B82D7B41439DC2BB02F51 /* MiniNotificationViewController.xib in Resources */,
+				CD7BBD7DAB2ACE3236B43417EE997A66 /* MPCloseButton.png in Resources */,
+				B4A3A296B2E619BB25800C56BC32DD79 /* MPCloseButton@2x.png in Resources */,
+				FC5DB73748209EC8064B933DC41773DF /* MPCloseButton@3x.png in Resources */,
+				C413FCF87CAB870086B74A6966C2CB01 /* TakeoverNotificationViewController~ipad.xib in Resources */,
+				8180D8E3090A7AE31F9BE0F7C4E0DA6A /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */,
+				A891DEFFE03B14EA220D73C9990D6221 /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1558,153 +1558,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0128E7AE9FD919E128DDC9CCDD319792 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B943C8A13FC1DBDB5DAC0DC208E392DA /* Pods-Marvel Hero Index.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero Index/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero Index/Pods-Marvel Hero Index.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Marvel_Hero_Index;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 180EAA9D1F14F73D00A037DA5F984DF6 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1011D7B830C636439255A6821E7B26A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8EBEFEF1C2BC0EBBD105DB8D11B1B03 /* Pods-Marvel Hero IndexUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexUITests/Pods-Marvel Hero IndexUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Marvel_Hero_IndexUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		17FCA31354E727FFF7EA7BB2014C2905 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7B1D8808BC115D13F29B767CA0FF453 /* Pods-Marvel Hero Index.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero Index/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero Index/Pods-Marvel Hero Index.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Marvel_Hero_Index;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1A650B9A8A01D272164A30EA652984C3 /* Debug */ = {
+		1D4EF9CD2E604225D56F9288FF02390C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC0FE35F44EAA0394028B36671E26824 /* Mixpanel-swift.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1717,22 +1580,59 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Mixpanel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		264F3F4AED72A4C90B420EE38854ECB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2413D2AC3C52B190B20F8BA1C1EB0793 /* Pods-Marvel Hero IndexTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Pods-Marvel Hero IndexTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvel_Hero_IndexTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		370928A20C18A21EE3D9DF7F986460A9 /* Release */ = {
+		49C7DE47A32999EC45015FE8A82970C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DACBE88B86964F1D08E5EE20A9470B0C /* SDWebImage.xcconfig */;
+			baseConfigurationReference = 83DBEA42884BD52E0A2B1192D3A8A8C3 /* Pods-Marvel Hero IndexTests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1744,28 +1644,32 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Pods-Marvel Hero IndexTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SDWebImage;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvel_Hero_IndexTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1773,10 +1677,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1805,10 +1712,407 @@
 			};
 			name = Debug;
 		};
-		8B4F66D37ADC784FA7B8DF3C5B3ECE45 /* Release */ = {
+		630A0717CB76ED3FCA1901FDC74EFAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCE3C491CB058FD70F8C5CE6D1280D2 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C9525B50534384F52EEED17F6808BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B1D8808BC115D13F29B767CA0FF453 /* Pods-Marvel Hero Index.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero Index/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero Index/Pods-Marvel Hero Index.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvel_Hero_Index;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		745634C826B2E76DF3AE7418341BCD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B943C8A13FC1DBDB5DAC0DC208E392DA /* Pods-Marvel Hero Index.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero Index/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero Index/Pods-Marvel Hero Index.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvel_Hero_Index;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180EAA9D1F14F73D00A037DA5F984DF6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FDDDCBBEF68220B3063CBD89DD1953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0FE35F44EAA0394028B36671E26824 /* Mixpanel-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA4E26EF62C3F90F888FE23EA78AD4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCE3C491CB058FD70F8C5CE6D1280D2 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1E218342D3ADD8B9C1A128E69E6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EBEFEF1C2BC0EBBD105DB8D11B1B03 /* Pods-Marvel Hero IndexUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexUITests/Pods-Marvel Hero IndexUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvel_Hero_IndexUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFCCCBC034CEF3561C52B3C3FAEA112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACBE88B86964F1D08E5EE20A9470B0C /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180EAA9D1F14F73D00A037DA5F984DF6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8BFE0D93805C1C5DD8F8D8B89D049D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACBE88B86964F1D08E5EE20A9470B0C /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDF1DAF75731A250381626270C370294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD5840280FA577C4FEF26A731A29E171 /* Pods-Marvel Hero IndexUITests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1840,286 +2144,14 @@
 			};
 			name = Release;
 		};
-		985ECDF2D363AE1F0D594D506E6189B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDCE3C491CB058FD70F8C5CE6D1280D2 /* CryptoSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C42A51F6E8E85F7B41717C0F81A5A29C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83DBEA42884BD52E0A2B1192D3A8A8C3 /* Pods-Marvel Hero IndexTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Pods-Marvel Hero IndexTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Marvel_Hero_IndexTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CAD6761DB88D895E650BBB0BDF58C849 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2413D2AC3C52B190B20F8BA1C1EB0793 /* Pods-Marvel Hero IndexTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Marvel Hero IndexTests/Pods-Marvel Hero IndexTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Marvel_Hero_IndexTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D02E16E22D450C785380C04584F20A81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0FE35F44EAA0394028B36671E26824 /* Mixpanel-swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Mixpanel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E294984C6A245FCFE82C5C116835DED0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDCE3C491CB058FD70F8C5CE6D1280D2 /* CryptoSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8E57F84C51E0E7C3193E17B38A55B27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DACBE88B86964F1D08E5EE20A9470B0C /* SDWebImage.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 180EAA9D1F14F73D00A037DA5F984DF6 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2127,8 +2159,8 @@
 		3C00FFAB8CA4B9B8282CD5D932472153 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A650B9A8A01D272164A30EA652984C3 /* Debug */,
-				D02E16E22D450C785380C04584F20A81 /* Release */,
+				8FDDDCBBEF68220B3063CBD89DD1953A /* Debug */,
+				1D4EF9CD2E604225D56F9288FF02390C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2136,8 +2168,8 @@
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F383079BFBF927813EA3613CFB679FDE /* Debug */,
-				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2145,8 +2177,8 @@
 		4F2D4DEFD9716C954D1E8ADC5D5601A5 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				985ECDF2D363AE1F0D594D506E6189B8 /* Debug */,
-				E294984C6A245FCFE82C5C116835DED0 /* Release */,
+				630A0717CB76ED3FCA1901FDC74EFAA5 /* Debug */,
+				BA4E26EF62C3F90F888FE23EA78AD4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2154,8 +2186,8 @@
 		62ED6FDC0AFDE9F463F0281CF9B0B33C /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E57F84C51E0E7C3193E17B38A55B27 /* Debug */,
-				370928A20C18A21EE3D9DF7F986460A9 /* Release */,
+				E8BFE0D93805C1C5DD8F8D8B89D049D9 /* Debug */,
+				BFCCCBC034CEF3561C52B3C3FAEA112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2163,8 +2195,8 @@
 		AF6E9E588A245546021A24F13A1EFE4F /* Build configuration list for PBXNativeTarget "Pods-Marvel Hero IndexUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1011D7B830C636439255A6821E7B26A0 /* Debug */,
-				8B4F66D37ADC784FA7B8DF3C5B3ECE45 /* Release */,
+				BF1E218342D3ADD8B9C1A128E69E6E4E /* Debug */,
+				EDF1DAF75731A250381626270C370294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2172,8 +2204,8 @@
 		D3363701DF88595EBCEC7FAAA9E13E76 /* Build configuration list for PBXNativeTarget "Pods-Marvel Hero Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17FCA31354E727FFF7EA7BB2014C2905 /* Debug */,
-				0128E7AE9FD919E128DDC9CCDD319792 /* Release */,
+				6C9525B50534384F52EEED17F6808BB6 /* Debug */,
+				745634C826B2E76DF3AE7418341BCD90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2181,8 +2213,8 @@
 		FBB416BC650ADD77EBF8D412AB9FABF5 /* Build configuration list for PBXNativeTarget "Pods-Marvel Hero IndexTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAD6761DB88D895E650BBB0BDF58C849 /* Debug */,
-				C42A51F6E8E85F7B41717C0F81A5A29C /* Release */,
+				264F3F4AED72A4C90B420EE38854ECB5 /* Debug */,
+				49C7DE47A32999EC45015FE8A82970C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -42,11 +42,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func setupView(){
+        
 //        if(UserUtil.checkAndReadFromDefaults(key: USER_DID_VIEW_ONBOARDING) != ""){
             self.window = UIWindow(frame: UIScreen.main.bounds)
             let storyboard = UIStoryboard(name: "Heroes", bundle: nil)
             let initialViewController = storyboard.instantiateViewController(withIdentifier: "HeroesVC")
-            self.window?.rootViewController = initialViewController
+            let navigationController = UINavigationController(rootViewController: initialViewController)
+            navigationController.navigationBar.isTranslucent = false
+            self.window?.rootViewController = navigationController
             self.window?.makeKeyAndVisible()
 //        }
 //        else{
