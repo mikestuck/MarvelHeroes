@@ -24,8 +24,13 @@ class HeroesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func viewWillAppear(_ animated: Bool) {
-
+        
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
     }

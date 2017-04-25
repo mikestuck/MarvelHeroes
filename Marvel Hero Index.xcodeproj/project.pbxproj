@@ -32,6 +32,8 @@
 		3F62DEED1E9DE02A0040ACD3 /* FontUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62DEEC1E9DE02A0040ACD3 /* FontUtil.swift */; };
 		3FAFED951E9EFF5C0039A699 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFED941E9EFF5C0039A699 /* StringUtil.swift */; };
 		3FCA13551EA068A5000789A8 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA13541EA068A5000789A8 /* HeroTableViewCell.swift */; };
+		3FE5EB271EAEF12800EF1791 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5EB221EAEF12800EF1791 /* AvatarImageView.swift */; };
+		3FE5EB281EAEF12800EF1791 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5EB241EAEF12800EF1791 /* FXBlurView.m */; };
 		54FA83C45D2378359F5B830A /* Pods_Marvel_Hero_IndexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1904CA4A8E7BDFBAB7EA6EF3 /* Pods_Marvel_Hero_IndexTests.framework */; };
 		6AF844D62F1AC90474DCE3FC /* Pods_Marvel_Hero_Index.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7817B04D84199AB47B5844D9 /* Pods_Marvel_Hero_Index.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +87,10 @@
 		3F62DEEC1E9DE02A0040ACD3 /* FontUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontUtil.swift; path = Utilities/FontUtil.swift; sourceTree = "<group>"; };
 		3FAFED941E9EFF5C0039A699 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Utilities/StringUtil.swift; sourceTree = "<group>"; };
 		3FCA13541EA068A5000789A8 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeroTableViewCell.swift; path = Controllers/Cells/Hero/HeroTableViewCell.swift; sourceTree = "<group>"; };
+		3FE5EB211EAEF12800EF1791 /* Marvel Hero Index-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marvel Hero Index-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FE5EB221EAEF12800EF1791 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		3FE5EB231EAEF12800EF1791 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		3FE5EB241EAEF12800EF1791 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		461CCDF27BC52699A0A0EDBE /* Pods_Marvel_Hero_IndexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel_Hero_IndexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D591503E929152F42C225C1 /* Pods-Marvel Hero IndexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel Hero IndexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel Hero IndexUITests/Pods-Marvel Hero IndexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		63EF7B53090C65A072393587 /* Pods-Marvel Hero Index.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel Hero Index.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel Hero Index/Pods-Marvel Hero Index.debug.xcconfig"; sourceTree = "<group>"; };
@@ -236,6 +242,7 @@
 		3F62DECC1E9DD5C60040ACD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FE5EB201EAEF0F100EF1791 /* Helpers */,
 				3F62DECD1E9DD5EB0040ACD3 /* Constants.swift */,
 			);
 			name = "Supporting Files";
@@ -279,6 +286,17 @@
 				3FCA13541EA068A5000789A8 /* HeroTableViewCell.swift */,
 			);
 			name = "Hero ";
+			sourceTree = "<group>";
+		};
+		3FE5EB201EAEF0F100EF1791 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5EB221EAEF12800EF1791 /* AvatarImageView.swift */,
+				3FE5EB231EAEF12800EF1791 /* FXBlurView.h */,
+				3FE5EB241EAEF12800EF1791 /* FXBlurView.m */,
+				3FE5EB211EAEF12800EF1791 /* Marvel Hero Index-Bridging-Header.h */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		45C2201D67E3A10B7D923704 /* Pods */ = {
@@ -382,6 +400,7 @@
 					3F62DE8E1E9DCC8F0040ACD3 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 4X4RG77KE5;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 					3F62DEA21E9DCC900040ACD3 = {
@@ -592,6 +611,7 @@
 			files = (
 				3FAFED951E9EFF5C0039A699 /* StringUtil.swift in Sources */,
 				3F62DED71E9DD6D60040ACD3 /* Story.swift in Sources */,
+				3FE5EB281EAEF12800EF1791 /* FXBlurView.m in Sources */,
 				3F62DEDB1E9DD7070040ACD3 /* Event.swift in Sources */,
 				3F62DEDD1E9DD7500040ACD3 /* Creator.swift in Sources */,
 				3F62DED91E9DD6F90040ACD3 /* Comic.swift in Sources */,
@@ -599,6 +619,7 @@
 				3F62DEED1E9DE02A0040ACD3 /* FontUtil.swift in Sources */,
 				3F62DED01E9DD6140040ACD3 /* APIUtil.swift in Sources */,
 				3F62DECB1E9DD56E0040ACD3 /* UserUtil.swift in Sources */,
+				3FE5EB271EAEF12800EF1791 /* AvatarImageView.swift in Sources */,
 				3F62DEE71E9DD7FC0040ACD3 /* OnboardingViewController.swift in Sources */,
 				3F62DEC91E9DD53F0040ACD3 /* ColorUtil.swift in Sources */,
 				3F62DEEB1E9DD8340040ACD3 /* HeroDetailsViewController.swift in Sources */,
@@ -740,6 +761,7 @@
 			baseConfigurationReference = 63EF7B53090C65A072393587 /* Pods-Marvel Hero Index.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
 				INFOPLIST_FILE = "Marvel Hero Index/Info.plist";
@@ -749,6 +771,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6577e130-974f-44ae-a392-711aab52345a";
 				PROVISIONING_PROFILE_SPECIFIER = Marvel_Dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "Marvel Hero Index/Marvel Hero Index-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -758,6 +782,7 @@
 			baseConfigurationReference = F9C8C38E4C400061DE394BBE /* Pods-Marvel Hero Index.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 4X4RG77KE5;
 				INFOPLIST_FILE = "Marvel Hero Index/Info.plist";
@@ -767,6 +792,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "27f189ec-07f6-4756-9aec-d7534d9e9ec4";
 				PROVISIONING_PROFILE_SPECIFIER = Marvel_Prod;
+				SWIFT_OBJC_BRIDGING_HEADER = "Marvel Hero Index/Marvel Hero Index-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="81y-Ub-Mo9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="81y-Ub-Mo9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,18 +13,88 @@
             <objects>
                 <viewController storyboardIdentifier="HeroDetailVC" id="81y-Ub-Mo9" customClass="HeroDetailViewController" customModule="Marvel_Hero_Index" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jVP-hN-xJL"/>
-                        <viewControllerLayoutGuide type="bottom" id="TII-kF-vtz"/>
+                        <viewControllerLayoutGuide type="top" id="RHz-fe-P7A"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Rk-JX-Bzd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="nKh-5o-0dw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.57073277980000003" blue="0.39843730179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view key="view" contentMode="scaleToFill" id="aiL-GS-Axu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hce-8Z-cSb" userLabel="Header">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jane Stormtrooper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVV-DQ-JEu">
+                                        <rect key="frame" x="226" y="104" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="MVV-DQ-JEu" secondAttribute="centerX" id="8dc-gt-fxT"/>
+                                    <constraint firstItem="MVV-DQ-JEu" firstAttribute="top" secondItem="Hce-8Z-cSb" secondAttribute="top" constant="104" id="KZ1-BS-ErM"/>
+                                    <constraint firstAttribute="height" constant="107" id="R8X-k1-mIQ"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFl-QP-lOq" userLabel="Scrollview">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="6BG-Eo-727" userLabel="AvatarImage" customClass="AvatarImageView" customModule="Marvel_Hero_Index" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="79" width="69" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jane Stormtrooper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1c5-u4-cui">
+                                        <rect key="frame" x="8" y="156" width="224" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="textColor" red="0.16078431369999999" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URM-cS-xy1" userLabel="Spacer">
+                                        <rect key="frame" x="0.0" y="477" width="600" height="390"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="390" id="fhL-Si-oya"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="URM-cS-xy1" firstAttribute="top" secondItem="KFl-QP-lOq" secondAttribute="top" constant="477" id="9Yi-Yo-AmF"/>
+                                    <constraint firstAttribute="trailing" secondItem="URM-cS-xy1" secondAttribute="trailing" id="Y8A-y0-otH"/>
+                                    <constraint firstAttribute="bottom" secondItem="URM-cS-xy1" secondAttribute="bottom" constant="37" id="jcM-Io-oF9"/>
+                                    <constraint firstItem="URM-cS-xy1" firstAttribute="leading" secondItem="KFl-QP-lOq" secondAttribute="leading" id="rDS-jp-UEs"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="URM-cS-xy1" secondAttribute="width" id="3Ae-i9-UFz"/>
+                            <constraint firstItem="KFl-QP-lOq" firstAttribute="leading" secondItem="aiL-GS-Axu" secondAttribute="leading" id="BST-1P-eLA"/>
+                            <constraint firstItem="KFl-QP-lOq" firstAttribute="top" secondItem="RHz-fe-P7A" secondAttribute="bottom" constant="-20" id="R7k-Sd-mlk"/>
+                            <constraint firstAttribute="trailing" secondItem="Hce-8Z-cSb" secondAttribute="trailing" id="WbS-dr-FAc"/>
+                            <constraint firstItem="Hce-8Z-cSb" firstAttribute="top" secondItem="RHz-fe-P7A" secondAttribute="bottom" constant="-20" id="WnM-WZ-ErV"/>
+                            <constraint firstAttribute="trailing" secondItem="KFl-QP-lOq" secondAttribute="trailing" id="gaO-fX-Oi1"/>
+                            <constraint firstItem="9Rk-JX-Bzd" firstAttribute="top" secondItem="KFl-QP-lOq" secondAttribute="bottom" id="w4i-G2-Am3"/>
+                            <constraint firstItem="Hce-8Z-cSb" firstAttribute="leading" secondItem="aiL-GS-Axu" secondAttribute="leading" id="xaj-Zh-gcs"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="900"/>
+                    <connections>
+                        <outlet property="header" destination="Hce-8Z-cSb" id="y6N-oJ-3sJ"/>
+                        <outlet property="heroAvatar" destination="6BG-Eo-727" id="ytD-R1-BAe"/>
+                        <outlet property="heroName" destination="MVV-DQ-JEu" id="uvH-iw-gfs"/>
+                        <outlet property="heroNameSmall" destination="1c5-u4-cui" id="Vtg-B9-VQF"/>
+                        <outlet property="scrollView" destination="KFl-QP-lOq" id="l42-TK-xPK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gui-GX-abj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="92" y="112"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder" width="640" height="360"/>
+    </resources>
 </document>
